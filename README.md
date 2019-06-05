@@ -1,7 +1,7 @@
 # BoneCustomizer
 
 # Issues
-* Does not work on Windows 7 due to Microsoft not supporting the UI API I use.
+* Does not work on Windows 7 due to Microsoft not supporting the UI API I use. Someone can try compiling it on Windows 7.
 * Does not work with fullscreen mode. The issue here is the way I'm hooking into the directx calls. I'm doing it very generically by creating a device and deleting it quickly after. The problem is that there can be only one device per fullscreen program so it fails and throws an error. 
 * Injecting twice makes it so it fails to unload requiring a reset if you close the UI.
 
